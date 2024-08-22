@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM js</title>
+    <style>
+        body{
+            background-color:black;
+            color: blueviolet;
+            margin: 8rem;
+        }
+        .Parrafo1{
+            font-size: 80px;
+            color: cadetblue;
+            font-weight: bold;
+        }
+        button{
+            padding: 2rem;
+            border: 1rem;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Manipulacion del DOM con JS</h1>
+    <p id="miParrafo" class="miParrafo1">Te dire algo</p>
+    </header>
+        <section>
+           <button id="miBoton">¡Haz clic aqui para saber una obviedad!</button> 
+        </section>
+        <script>
+            const boton = document.getElementById("miBoton");
+            const parrafo = document.getElementById("miParrafo");
+            const texto = ""
+            boton.addEventListener("click", function (){
+                parrafo.innerHTML= 'Todo los dias sale el sol' + texto
+
+                parrafo.style.color = 'pink'
+                parrafo.style.fontSize = '30px'
+            });
+        </script>
+</body>
+</html>
