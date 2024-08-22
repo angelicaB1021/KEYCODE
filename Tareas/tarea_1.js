@@ -8,3 +8,4 @@ console.log (`${i} x ${j} = ${ i*j}`);
 console.log('tablasDeMultiplicar');
 }}
 
+//..
