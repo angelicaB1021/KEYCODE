@@ -5,10 +5,12 @@ export const SelectList = ({ title }) => {
   
     return (
       <>
-        <label className="label-select" htmlFor={key}>{label}</label>
-        <select name={key} id={key}>
+      <div className="selectEstilos">
+      <label className="label-select" htmlFor={key}>{label}</label>
+      <select name={key} id={key}>
           <option value="">Seleccione un {title}</option>
         </select>
+      </div>   
       </>
     );
   };
