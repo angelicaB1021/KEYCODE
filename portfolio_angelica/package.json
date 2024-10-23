@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfolio_angelica",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.5",
+    "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-toggle-dark-mode": "^1.1.1",
-    "styled-components": "^6.1.13"
+    "react-hot-toast": "^2.4.1",
+    "sweetalert2": "^11.14.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
