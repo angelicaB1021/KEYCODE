@@ -7,8 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-900': '#1a202c', 
-        'pastel-200': '#c0c0c0', 
+        dark: {
+          700: '#2D2D2D',
+          800: '#1F1F1F',
+          900: '#121212',
+        },
+        pastel: {
+          100: '#E0B0FF',
+          200: '#C39BD3',
+          300: '#D1C4E9',
+        },
       },
     },
   },
