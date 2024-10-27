@@ -1,7 +1,7 @@
 export const navLinks = [
-    {href:"#AboutMe", label: "Sobre mí"},
-    {href:"#Contact", label: "contáctame"},
-    {href:"#Skills", label: "Habilidades"},
-    {href:"#Study", label: "Estudios"}
+    {href:"#about", label: "Sobre mí"},
+    {href:"#contact", label: "contáctame"},
+    {href:"#skills", label: "Habilidades"},
+    {href:"#study", label: "Estudios"}
 
 ]
