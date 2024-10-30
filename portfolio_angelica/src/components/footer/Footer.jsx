@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   const listNavbar = [
-    { name: "Acerca de Mí", link: "AboutMe" },
+    { name: "Acerca de Mí", link: "#AboutMe" },
     { name: "Habilidades", link: "#Skills" },
     { name: "Estudios", link: "#Studys" },
-    { name: "Lenguajes", link: "Languages" },
+    { name: "Lenguajes", link: "#Language" },
   ];
   return (
     <footer className="bg-[#020607] rounded-lg shadow">

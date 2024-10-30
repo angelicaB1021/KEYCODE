@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Navbar() {
   const listNavbar = [
-    { name: "Acerca de Mí", link: "AboutMe" },
+    { name: "Acerca de Mí", link: "#AboutMe" },
     { name: "Habilidades", link: "#Skills" },
     { name: "Estudios", link: "#Studys" },
-    { name: "Lenguajes", link: "Languages" },
-    { name: "Contáctame", link: "Contact" },
+    { name: "Lenguajes", link: "#Language" },
+    { name: "Contáctame", link: "#Contact" },
   ];
   return (
     <header data-aos="fade-up" className="z-10 text-gray-600 body-font">
